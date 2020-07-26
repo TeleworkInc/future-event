@@ -1,13 +1,13 @@
-# PromisedEvent
+# FutureEvent
 A simple, tiny utility class for promising a future event will occur, allowing you to
 `await` it. For instance:
 
 ```javascript
 async function test() {
   /** Promise an event will happen eventually. */
-  const inFiveSeconds = new PromisedEvent();
+  const inFiveSeconds = new FutureEvent();
 
-  /** Fire PromisedEvent.ready() after 5s. */
+  /** Fire FutureEvent.ready() after 5s. */
   setTimeout(() => inFiveSeconds.ready(), 5e3);
   
   console.log('⏱️  Waiting for event...');

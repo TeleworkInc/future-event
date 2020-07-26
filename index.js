@@ -7,9 +7,9 @@ const EventEmitter = require('events');
 
 /**
  * Create a promise that a future event will happen. Fire with
- * `PromisedEvent.ready()`.
+ * `FutureEvent.ready()`.
  */
-module.exports = class PromisedEvent extends Promise {
+module.exports = class FutureEvent extends Promise {
   constructor(def = (res, rej)=>{}) {
     let res, rej;
     super((resolve, reject) => {
