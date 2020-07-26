@@ -7,9 +7,9 @@ async function test() {
   /** Fire PromisedEvent.ready() after 5s. */
   setTimeout(() => inFiveSeconds.ready(), 5e3);
   
-  console.log('⏱️ Waiting for event...');
-  await inFiveSeconds.promise;
-  console.log('✅ Done!');
+  console.log('⏱️  Waiting for event...');
+  await inFiveSeconds;
+  console.log('✅  Done!');
 }
 
 test();
