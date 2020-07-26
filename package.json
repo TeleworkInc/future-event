@@ -1,7 +1,13 @@
 {
-  "name": "promised-event",
+  "name": "future-event",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Christian Lewis <hello@trytelework.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "await",
+    "async",
+    "event"
+  ]
 }
