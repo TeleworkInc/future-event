@@ -1,5 +1,5 @@
 {
-  "name": "future-event",
+  "name": "@TeleworkInc/future-event",
   "version": "1.2.0",
   "main": "index.js",
   "author": "Christian Lewis <hello@trytelework.com>",
