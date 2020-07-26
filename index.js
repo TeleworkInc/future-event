@@ -22,11 +22,11 @@ module.exports = class FutureEvent extends Promise {
     this.reject = rej;
   }
 
-  ready() {
-    this.resolve();
+  ready(msg = '') {
+    this.resolve(msg);
   }
 
-  cancel() {
-    this.reject();
+  cancel(msg = '') {
+    this.reject(msg);
   }
 }
