@@ -1,5 +1,5 @@
 {
-  "name": "@teleworkinc/future-event",
+  "name": "future-event",
   "version": "1.4.0",
   "main": "index.js",
   "author": "Christian Lewis <hello@trytelework.com>",
@@ -9,8 +9,5 @@
     "await",
     "async",
     "event"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  ]
 }
