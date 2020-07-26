@@ -1,0 +1,7 @@
+{
+  "name": "promised-event",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Lewis <hello@trytelework.com>",
+  "license": "MIT"
+}
